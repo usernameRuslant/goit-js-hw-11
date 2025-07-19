@@ -1,12 +1,12 @@
-import { getImagesByQuery } from './pixabay-api.js';
-import { refs } from './refs.js';
+import { getImagesByQuery } from './js/pixabay-api.js';
+import { refs } from './js/refs.js';
 import {
   createGallery,
   clearGallery,
   refreshLightbox,
   showLoader,
   hideLoader,
-} from './render-functions.js';
+} from './js/render-functions.js';
 import iziToast from 'izitoast';
 
 function onSubmit(e) {
